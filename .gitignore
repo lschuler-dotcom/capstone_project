@@ -1,0 +1,17 @@
+# macOS
+.DS_Store
+
+# Jupyter/Colab
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+
+# Secrets / tokens / local notes
+*.env
+*.key
+*.pem
+PAT*passcode*.rtf
+*.secret
