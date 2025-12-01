@@ -1,6 +1,6 @@
 # Capstone Project - Brick - Market Expansion Research
 * This repository examines the relationship between students' social media usage and their academic performance, mental health, and relationships to uncover how social media impacts various aspects of a student's life.  
-* The purpose of this repository is to generate insights for Brick, a productivity tool that blocks distractions to keep you on task. These insights are aimed at providing a basis for rolling out a marketing campaign aimed at students.
+* For this project I am assuming the role of data analyst, producing insights for the marking team of Brick LLC, a company that created a physical productivity tool that gives users the ability to turn thier "smartphone" back to a "dumbphone" by placing limits on distracting apps to keep you on task. These insights are aimed at providing a basis for rolling out a marketing campaign aimed at students.
 
 ### Google Colab
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lschuler-dotcom/capstone_project/blob/main/notebooks/capstone_project.ipynb)
