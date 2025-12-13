@@ -1,16 +1,14 @@
 # Capstone Project - Brick - Market Expansion Research
-* This repository examines the relationship between students' social media usage and their academic performance, mental health, and relationships to uncover how social media impacts various aspects of a student's life.  
-* For this project I am assuming the role of data analyst, producing insights for the marking team of Brick LLC, a company that created a physical productivity tool that gives users the ability to turn thier "smartphone" back to a "dumbphone" by placing limits on distracting apps to keep you on task. These insights are aimed at providing a basis for rolling out a marketing campaign aimed at students.
+### Introduction
+For this project, I am assuming the role of data analyst, producing insights for the leadership team of Brick LLC to serve as the basis for a proposed marketing campaign directed at students. This repository examines the relationship between students' social media usage and their academic performance, mental health, and relationships to uncover how social media impacts various aspects of a student's life. Enriched with country population, GDP per capita and internet use data, the intended outcome is to identify potential target markets, what pain points to message, and where to pilot Brick’s solution.
 
 ### Google Colab
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lschuler-dotcom/capstone_project/blob/main/notebooks/capstone_project.ipynb)
 
 ### Datasets
-**Sources:** 
-https://www.kaggle.com/datasets/mahdimashayekhi/social-media-vs-productivity
-https://data.worldbank.org/indicator/SP.POP.TOTL
-https://data.worldbank.org/indicator/NY.GDP.PCAP.CD
-https://data.worldbank.org/indicator/IT.NET.USER.ZS
+**Sources:**
+
+[Social Media Kaggle](https://www.kaggle.com/datasets/mahdimashayekhi/social-media-vs-productivity) -- [Population World Bank Group](https://data.worldbank.org/indicator/SP.POP.TOTL) -- [GDP World Bank Group](https://data.worldbank.org/indicator/NY.GDP.PCAP.CD) -- [IT User World Bank Group](https://data.worldbank.org/indicator/IT.NET.USER.ZS)
 
 <br>The `social_media_vs_productivity.csv` dataset contains:
 
@@ -30,7 +28,7 @@ https://data.worldbank.org/indicator/IT.NET.USER.ZS
 | `conflicts_over_social_media`  | Integer     | Number of relationship conflicts attributed to social media |
 | `addicted_score`               | Integer     | Social Media Addiction score (1 = low to 10 = high)         |
 
-Note: For the following datasets, the "Years 1960 - 2024" column in tha table is summarising the separate columns in the dataset from 1960 to 2024 - grouped for table simplicity.
+Note: For the following datasets, the "Years 1960 - 2024" column in the table is summarising the separate columns in the dataset from 1960 to 2024 - grouped for table simplicity.
 
 <br>The `wbg_%tech_users.csv` dataset contains:
 | Variable                       | Type        | Description                                                 |
